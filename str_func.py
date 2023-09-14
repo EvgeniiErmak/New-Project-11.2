@@ -26,3 +26,5 @@ res = []
 for word in source:
     res.append(capitalize_full(word))
 print(' '.join(res))
+
+""" ФИНАЛ ПРОГРАММЫ. """
