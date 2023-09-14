@@ -1,4 +1,7 @@
 def capitalize(word):
+    
+""" Функция делает заглавными первые буквы каждого слова в строке, поступившей на вход. """
+    
     first_letter_small = word[0]
     first_letter_big = chr(ord(first_letter_small) - ord('a') + ord('A'))
     return first_letter_big + word[1:]
